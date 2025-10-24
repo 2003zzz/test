@@ -6,3 +6,7 @@ class User {
         this.Surname = surname;
     }
 }
+class Role {
+    public Id: number;
+    public Name: number;
+}
