@@ -1,0 +1,56 @@
+#AuthName "PSZ"
+#AuthType SSPI
+#NTLMAuth On
+#NTLMAuthoritative On
+#NTLMDomain imf.ru
+#NTLMOfferNTLM On
+#require valid-sspi-user
+#<RequireAll>
+#<RequireAny>
+#require valid-sspi-user			    
+#</RequireAny>
+#<RequireNone>
+#  require sspi-group DOMAIN_KVC\gwebdeny    
+#</RequireNone>
+#</RequireAll>
+
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+
+    RewriteEngine On
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    #RewriteRule ^ldap ldap/index.php [NC,L]
+    RewriteRule ^ index.php [L]
+
+
+    # Handle Authorization Header
+    #RewriteCond %{HTTP:Authorization} .
+    #RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+
+
+
+    RewriteBase /ptt05back/
+
+</IfModule>
+
+
+
+  #Header add Access-Control-Allow-Origin "*"
+  #Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type, Authorization, api_key, Accept, Content-Type"
+  #Header add Access-Control-Allow-Methods "PUT, GET, POST, DELETE, OPTIONS, FETCH"
+  #Header add Access-Control-Allow-Credentials "true"

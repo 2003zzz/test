@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'SBSans';
+  font-display: swap;
+  src: url('./regular/sbsans.eot');
+  src: url('./regular/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./regular/sbsans.woff2') format('woff2'),
+  url('./regular/sbsans.woff') format('woff'),
+  url('./regular/sbsans.ttf') format('truetype'),
+  url('./regular/sbsans.svg#SBSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBSans';
+  font-display: swap;
+  src: url('./medium/sbsans.eot');
+  src: url('./medium/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./medium/sbsans.woff2') format('woff2'),
+  url('./medium/sbsans.woff') format('woff'),
+  url('./medium/sbsans.ttf') format('truetype'),
+  url('./medium/sbsans.svg#SBSans') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBSans';
+  font-display: swap;
+  src: url('./semibold/sbsans.eot');
+  src: url('./semibold/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./semibold/sbsans.woff2') format('woff2'),
+  url('./semibold/sbsans.woff') format('woff'),
+  url('./semibold/sbsans.ttf') format('truetype'),
+  url('./semibold/sbsans.svg#SBSans') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBSans';
+  font-display: swap;
+  src: url('./bold/sbsans.eot');
+  src: url('./bold/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./bold/sbsans.woff2') format('woff2'),
+  url('./bold/sbsans.woff') format('woff'),
+  url('./bold/sbsans.ttf') format('truetype'),
+  url('./bold/sbsans.svg#SBSans') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBSansDisplay';
+  font-display: swap;
+  src: url('./display-regular/sbsans.eot');
+  src: url('./display-regular/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./display-regular/sbsans.woff2') format('woff2'),
+  url('./display-regular/sbsans.woff') format('woff'),
+  url('./display-regular/sbsans.ttf') format('truetype'),
+  url('./display-regular/sbsans.svg#SBSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBSansDisplay';
+  font-display: swap;
+  src: url('./display-semibold/sbsans.eot');
+  src: url('./display-semibold/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./display-semibold/sbsans.woff2') format('woff2'),
+  url('./display-semibold/sbsans.woff') format('woff'),
+  url('./display-semibold/sbsans.ttf') format('truetype'),
+  url('./display-semibold/sbsans.svg#SBSans') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SBSansDisplay';
+  font-display: swap;
+  src: url('./display-regular/sbsans.eot');
+  src: url('./display-regular/sbsans.eot?#iefix') format('embedded-opentype'),
+  url('./display-regular/sbsans.woff2') format('woff2'),
+  url('./display-regular/sbsans.woff') format('woff'),
+  url('./display-regular/sbsans.ttf') format('truetype'),
+  url('./display-regular/sbsans.svg#SBSans') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}

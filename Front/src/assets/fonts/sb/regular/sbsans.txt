@@ -1,0 +1,83 @@
+@font-face {
+        font-family: 'SBSans';
+        font-display: swap;
+            src: url('https://cms-res.online.sberbank.ru/plsbol/fonts/regular/sbsans.eot');
+            src:
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/regular/sbsans.eot?#iefix') format('embedded-opentype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/regular/sbsans.woff2') format('woff2'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/regular/sbsans.woff') format('woff'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/regular/sbsans.ttf') format('truetype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/regular/sbsans.svg#SBSans') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SBSans';
+        font-display: swap;
+            src: url('https://cms-res.online.sberbank.ru/plsbol/fonts/medium/sbsans.eot');
+            src:
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/medium/sbsans.eot?#iefix') format('embedded-opentype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/medium/sbsans.woff2') format('woff2'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/medium/sbsans.woff') format('woff'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/medium/sbsans.ttf') format('truetype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/medium/sbsans.svg#SBSans') format('svg');
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SBSans';
+        font-display: swap;
+            src: url('https://cms-res.online.sberbank.ru/plsbol/fonts/semibold/sbsans.eot');
+            src:
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/semibold/sbsans.eot?#iefix') format('embedded-opentype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/semibold/sbsans.woff2') format('woff2'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/semibold/sbsans.woff') format('woff'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/semibold/sbsans.ttf') format('truetype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/semibold/sbsans.svg#SBSans') format('svg');
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SBSans';
+        font-display: swap;
+            src: url('https://cms-res.online.sberbank.ru/plsbol/fonts/bold/sbsans.eot');
+            src:
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/bold/sbsans.eot?#iefix') format('embedded-opentype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/bold/sbsans.woff2') format('woff2'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/bold/sbsans.woff') format('woff'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/bold/sbsans.ttf') format('truetype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/bold/sbsans.svg#SBSans') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SBSansDisplay';
+        font-display: swap;
+            src: url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-regular/sbsans.eot');
+            src:
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-regular/sbsans.eot?#iefix') format('embedded-opentype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-regular/sbsans.woff2') format('woff2'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-regular/sbsans.woff') format('woff'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-regular/sbsans.ttf') format('truetype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-regular/sbsans.svg#SBSans') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'SBSansDisplay';
+        font-display: swap;
+            src: url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-semibold/sbsans.eot');
+            src:
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-semibold/sbsans.eot?#iefix') format('embedded-opentype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-semibold/sbsans.woff2') format('woff2'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-semibold/sbsans.woff') format('woff'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-semibold/sbsans.ttf') format('truetype'),
+                url('https://cms-res.online.sberbank.ru/plsbol/fonts/display-semibold/sbsans.svg#SBSans') format('svg');
+        font-weight: 600;
+        font-style: normal;
+    }

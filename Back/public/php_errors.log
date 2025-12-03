@@ -1,0 +1,3 @@
+[02-Jul-2024 15:25:54 Asia/Karachi] PHP Notice:  Array to string conversion in /var/www/ptt05/back/public/index_my.php on line 7
+[02-Jul-2024 15:25:54 Asia/Karachi] PHP Stack trace:
+[02-Jul-2024 15:25:54 Asia/Karachi] PHP   1. {main}() /var/www/ptt05/back/public/index_my.php:0

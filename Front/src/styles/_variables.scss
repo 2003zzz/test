@@ -1,0 +1,66 @@
+@import '~vuetify/src/styles/styles.sass';
+
+// $body-font-family: 'SBSans', serif !important;
+$body-font-family: 'RosatomWeb', serif !important;
+// Sidebar //
+$drawer-items-padding: 32px !default;
+$navigation-drawer-mini-variant-width: 96px !important;
+
+// Layout //
+$body-bg-light: #f4f5fa !default;
+$body-bg-dark: #232b32 !default;
+
+$content-padding: 24px;
+$card-bg-dark: #303840;
+$card2-bg-dark: #495763;
+
+// Colors //
+//$primary: #014d99;
+$primary: #025EA1;
+$primary2: #003274;
+$primary3: #6CACE4;
+$secondary: #f36f27;
+$error: #b0283a;
+$warning: #cd9c52;
+$success: #1d988c;
+$info: #6a488f;
+$accent: #f36f27;
+$dgray:#3f3e3eb7;
+//$text-color: rgba(58, 53, 65, 0.87);
+$text-color: rgb(30, 41, 59);
+$text-light-color: rgb(252, 252, 252);
+$text-dark-color: rgb(225, 225, 225);
+$text-invert-color: #f4f5fa;
+$text-grey: #b9b9b9;
+$title-grey: #4a4a4a;
+
+$card-title-color: $text-color;
+
+// Typography //
+$h1-font-size: 3rem !default; // 28px
+$h2-font-size: 2rem !default; // 24px
+$h3-font-size: 1.64rem !default; // 22px
+$h4-font-size: 1.5rem !default; // 20px
+$h5-font-size: 1.285rem !default; // 16px
+$h6-font-size: 1.142rem !default; // 14px
+
+$card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.01);
+$shadow-primary: 0 0 4px 4px rgba(2, 94, 161, 0.35);
+$shadow-primary-red: 0 0 4px 4px rgba(229, 115, 115, 0.35);
+$shadow-primary-dark: 0 0 4px 4px rgba(220, 255, 230, 0.35);
+
+// Buttons //
+$button-shadow: 0px 3px 11px 0px #E8EAFC, 0 3px 3px -2px #B2B2B21A, 0 1px 8px 0 #9A9A9A1A;
+
+// Radius Cards //
+
+
+$date-picker-table-font-size: 10px;
+
+// Tabs //
+
+$tab-bg: #c9e6ff;
+
+$calendar-event-font-size: 6px !default;
+$calendar-event-line-height: 10px !default;
+$calendar-event-right-empty: 2px !default;

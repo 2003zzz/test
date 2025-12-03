@@ -1,0 +1,12 @@
+@import '../../styles/app.scss';
+
+.v-snack__content {
+  text-align-last: start !important;
+}
+
+.v-snack__btn.v-btn--absolute {
+  padding: 0 !important;
+  min-width: auto !important;
+  top: 0 !important;
+  right: 0 !important;
+}

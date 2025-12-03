@@ -1,0 +1,26 @@
+@import '../../styles/app.scss';
+
+// Общие стили
+.v-list-item__title {
+  white-space: nowrap !important;
+  color: #1976d2 !important;
+}
+
+// Светлая тема
+.v-application.theme--light {
+  .v-list-item:hover {
+    background-color: #e4eff8 !important;
+  }
+}
+
+// Темная тема
+.v-application.theme--black, .v-application.theme--dark {
+  .v-list-item--active {
+    color: #ffffff !important;
+    background-color: #025ea1 !important;
+
+    .v-list-item__title {
+      color: #ffffff !important;
+    }
+  }
+}
